@@ -1,47 +1,387 @@
-*{
- box-sizing: border-box;
- padding:0;
- margin: 0;
+* {
+    box-sizing: border-box;
+    padding: 0;
+  
 }
 
-.container{
+.behance_container {
     width: 1320px;
+    border-bottom: 1px solid #DDDDDD;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
 }
 
-.flex_div{ 
+.flex_div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 .flex_div1 ul {
     display: flex;
     list-style-type: none;
+    align-items: center;
+
+
 }
 
-.flex_div1 ul a{
-     
+.flex_div1 ul a {
+
     text-decoration: none;
     padding: 5px;
     margin: 5px;
+    font-size: 17px;
+    font-weight: bolder;
 }
 
 
-.flex_div2 ul{
+.flex_div2 ul {
     display: flex;
     list-style-type: none;
-}
+    align-items: center;
+    gap: 30px;
 
-.flex_div2 ul a{
- text-decoration: none;
- padding: 5px ;
- margin: 5px;
 
 }
 
-.flex_div2 ul li .first_child{
- background-color: #f5f8ff;
- border-radius: 20px;
- color:blue;
- padding: 20 px;
+.flex_div2 ul a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Roboto", sans-serif;
+
 
 }
+
+.flex_div2 ul li .first_child {
+    background-color: #f5f8ff;
+    border-radius: 20px;
+    color: blue;
+    padding: 10px 20px 10px 20px;
+    font-size: large;
+
+
+}
+
+#behance {
+
+    color: #000000;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+.second_child {
+    background-color: #0057FF;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 15px;
+    font-size: large;
+    display: inline-block;
+    /* বা block */
+    text-align: center;
+}
+
+
+
+.third_child {
+    display: flex;
+    align-items: center;
+}
+
+
+/*=====behance_second_section_ start here=====*/
+
+.second-behance_container{
+   margin-top: 25px;
+   font-family: "Roboto", sans-serif;
+}
+
+.behance_second_section {
+    
+    box-sizing: border-box;
+    width: 1320px;
+     margin:0 auto ;
+   
+}
+
+.behance_second_section_flex_div {
+    display: flex;
+    align-items: center;
+    
+   
+
+}
+
+.behance_second_section_flex_div1 {
+
+    display: flex;
+    width: 810px;
+
+    align-items: center;
+    border: 3px solid #EEEEEE;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #F9F9F9; 
+    
+}
+
+
+.behance_second_section_flex_div1 img {
+
+    width: 20px;
+    height: 20px;
+    margin: 18px;
+}
+
+
+.behance_second_section_flex_div2 ul {
+
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+    margin-left: 5px;
+    align-items: center;
+    margin: 9px;
+   
+    
+}
+
+
+
+
+.behance_second_section_flex_div input {
+    width: 762px;
+    height: 48px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    background-color: #F9F9F9;
+
+
+}
+
+
+
+
+
+
+
+.behance_second_section_flex_div .behance_projects {
+    background-color: #000000;
+    border-radius: 50px;
+    padding: 10px 20px
+}
+
+
+.behance_second_section_flex_div .behance_projects a {
+    color: white;
+    padding: 5px;
+
+}
+ .behance_second_section_flex_div  a {
+     margin: 1px;
+     font-size: 13px;
+     margin: 3px;
+     font-family: "Roboto", sans-serif;
+
+}
+
+.behance_second_section_flex_div2{
+
+    background-color: #FFFFFF;
+    border-top: 3px solid #EEEEEE;
+    border-right: 3px solid #EEEEEE;
+    border-bottom: 3px solid #EEEEEE;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 510px;
+   
+   
+}
+
+
+
+
+
+/*=====behance_second_section_ ends here=====*/
+
+/*===behance button section start here===*/
+   
+   .behance_button_container{
+    margin-top: 25px;
+    font-family: "Roboto", sans-serif;
+   }
+
+   .behance_button_flex_div button {
+    margin: 5px;
+    padding: 0px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+     
+    
+
+   }
+
+   
+   .behance_button_flex_div button img {
+    margin: 5px;
+   
+
+   }
+   
+
+   .behance_button_flex_div{
+    display: flex;
+    margin-left: 12px;
+   }
+/*===behance button section ends here===*/
+
+
+/*===behance-card section start here ==*/
+
+.behance_card_flex_div {
+    display: flex;
+    gap: 16px;
+}
+
+
+.behance_card_flex_div .behance_card_content{
+    display: flex;
+}
+
+
+.behance_card_content .behance_card_content_right{
+    display: flex;
+}
+
+
+ .behance_card_content_right img{
+
+    width: 16px;
+    height: 16px;
+     
+ }
+
+
+ .behance_card_content_left{
+    font-family: "Roboto", sans-serif;
+ }
+/*===behance-card section ends here ==*/
+
+/*====clod_section start here ===*/
+
+.cloud_section_container{
+    width: 1320px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+ 
+.cloud_section{
+margin-top: 28px;
+background-color: #F2F2F2;
+ 
+
+}
+
+.cloud_section_flex_div{
+    display: flex;
+    gap: 16px;
+   justify-content: space-between;
+
+   
+}
+
+.cloud_section_flex1{
+    width: 240px;
+    text-align: center;
+}
+
+.cloud_section_flex2{
+      width: 240px;
+   
+    text-align: center;
+}
+
+.cloud_section_flex3{
+     width: 240px;
+    text-align: center;
+}
+
+.cloud_section_flex4{
+      width: 240px;
+    text-align: center;
+}
+
+.cloud_section_flex5{
+      width: 240px;
+    text-align: center;
+}
+
+
+.cloud_section_flex1 p{
+    color: #696969;
+}
+
+
+.cloud_section_flex2 p{
+    color: #696969;
+}
+
+
+.cloud_section_flex3 p{
+    color: #696969;
+}
+
+
+.cloud_section_flex4 p{
+    color: #696969;
+}
+
+.cloud_section_flex1{
+position: relative;
+}
+
+.cloud_section_flex1 button {
+    padding: 11px 31px;
+    border-radius: 50px;
+    background-color: #0057FF;
+    border: none;
+    color:#FFFFFF;
+    position: absolute;
+    left: 0px;
+}
+
+
+.cloud_content{
+    display: flex;
+    
+}
+
+ .cloud_content .cloud_content2{
+   
+   transform: translateX(12px);
+ }
+
+.cloud_content img{
+    width: 35px;
+    height: 35px;
+    transform: translateY(24px);
+
+  
+}
+/*====cloud_section ends here ===*/
+
+
+/*====onca section start here===*/
+.onca_card_container{
+ margin-top: 25px;
+ font-family: "Roboto", sans-serif;
+}
+
+/*====onca section ends here===*/
